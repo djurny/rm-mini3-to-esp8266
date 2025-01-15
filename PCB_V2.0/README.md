@@ -65,3 +65,5 @@
     
 References:
 - https://randomnerdtutorials.com/esp8266-pinout-reference-gpios/
+- [J3Y transistor](https://www.alldatasheet.net/datasheet-pdf/marking/226239/BILIN/S8050.html)
+- [AMS1117 voltage regulator](https://datasheetgo.com/wp-content/uploads/2018/09/AMS1117-datasheet-pinout.gif)
