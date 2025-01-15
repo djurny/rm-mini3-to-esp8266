@@ -42,6 +42,16 @@
         pin: GPIO4
         dump: all
     ```
-
+1. ESPhome logging showing sample dump from random remote control
+    ```
+    [17:06:40][VV][remote_receiver.esp8266:107]:   i=20 buffer[49]=45382431 - buffer[48]=45381515 -> -916
+    [17:06:40][I][remote.pronto:234]: Received Pronto: data=
+    [17:06:40][I][remote.pronto:236]: 0000 006D 000B 0000 0046 0042 0024 0020 0046 0020 0024 0020 0024 0020 0024 0020 0024 0043 0046 0042 0024 0021 0024 0021 0024 0180 06C3
+    [17:06:40][I][remote.rc5:086]: Received RC5: address=0x10, command=0x57
+    [17:06:40][W][component:237]: Component remote_receiver took a long time for an operation (223 ms).
+    [17:06:40][W][component:238]: Components should block for at most 30 ms.
+    [17:06:41][VV][scheduler:225]: Running interval '' with interval=10000 last_execution=36283 (now=46283)
+    ```
+    
 References:
 - https://randomnerdtutorials.com/esp8266-pinout-reference-gpios/
