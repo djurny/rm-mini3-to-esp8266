@@ -1,4 +1,4 @@
-# How to repurpose the IR blaster/receiver from a Broadlink RM Mini 3
+# How to repurpose the IR blaster/receiver from a RM Mini 3
 ## Open the IR blaster
 1. Remove the top cover
     1. Use a knife to trace the gap between the top cover and the body.
