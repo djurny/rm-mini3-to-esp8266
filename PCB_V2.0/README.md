@@ -35,11 +35,21 @@
     ```
     remote_transmitter:
       - id: IR_TX
-        pin: GPIO5
+        pin:
+          number: GPIO5
+          inverted: false
+          mode:
+            output: true
+            open_drain: false
         carrier_duty_percent: 50%
+    
     remote_receiver:
       - id: IR_RX
-        pin: GPIO4
+        pin:
+          number: GPIO4
+          inverted: true
+          mode:
+            input: true
         dump: all
     ```
 1. ESPhome logging showing sample dump from random remote control
