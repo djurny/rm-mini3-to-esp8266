@@ -22,13 +22,13 @@
     ![](https://github.com/djurny/rm-mini3-to-esp8266/blob/master/PCB_V2.0/Pictures/08%20test%20setup%20esp8266.jpg)
 1. Solder wires to your ESP device:
 
-    |Function|Pad|ESP|
-    |-       |-  |-  |
-    |3V3     |1  |3V3|
-    |GND     |2  |G  |
-    |5V      |3  |5V |
-    |RX      |4  |GPIO4 (D2)|
-    |TX      |5  |GPIO5 (D1)|
+    |Function|Pad|ESP8266 D1 mini ![ESP8266](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/05/ESP8266-WeMos-D1-Mini-pinout-gpio-pin.png?w=715&quality=100&strip=all&ssl=1)|ESP32 D1 mini ![ESP32 D1 mini](https://www.espboards.dev/img/sLgUCWcPxA-1000.png)|
+    |-       |-  |-      |-            |
+    |3V3     |1  |3V3    |3V3          |
+    |GND     |2  |G      |GND          |
+    |5V      |3  |5V     |VCC          |
+    |RX      |4  |GPIO4 (D2)|GPIO16 (U2-RX)|    
+    |TX      |5  |GPIO5 (D1)|GPIO17 (U2-TX)|
 
 ## ESPhome configuration
 1. ESPhome configuration
@@ -67,3 +67,4 @@ References:
 - https://randomnerdtutorials.com/esp8266-pinout-reference-gpios/
 - [J3Y transistor](https://www.alldatasheet.net/datasheet-pdf/marking/226239/BILIN/S8050.html)
 - [AMS1117 voltage regulator](https://datasheetgo.com/wp-content/uploads/2018/09/AMS1117-datasheet-pinout.gif)
+- [Sensus IR & RF Code Converter](https://pasthev.github.io/sensus/)
