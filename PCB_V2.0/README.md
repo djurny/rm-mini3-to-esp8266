@@ -70,18 +70,18 @@
 1. Wiggle the ESP32 from inside the can through the hole to the outside.
     ![](https://github.com/djurny/rm-mini3-to-esp8266/blob/master/PCB_V2.0/Pictures/12%20esp%20through%20base.jpg)
     ![](https://github.com/djurny/rm-mini3-to-esp8266/blob/master/PCB_V2.0/Pictures/13%20esp%20through%20base.jpg)
-1. Clip the holder onto the ESP32.
+1. Clip the holder onto the ESP32 => https://github.com/djurny/rm-mini3-to-esp8266/blob/master/PCB_V2.0/STL/ESP32%20D1%20mini%20tray.stl
     ![](https://github.com/djurny/rm-mini3-to-esp8266/blob/master/PCB_V2.0/Pictures/14%20esp%20on%20tray.jpg)
 1. Slide the holder back into the can. There is only one spot where the ESP32 can slide through. Slightly angled and through the center of the hole on the side of can.
     ![](https://github.com/djurny/rm-mini3-to-esp8266/blob/master/PCB_V2.0/Pictures/15%20slide%20tray%20into%20base.jpg)
     ![](https://github.com/djurny/rm-mini3-to-esp8266/blob/master/PCB_V2.0/Pictures/16%20snap%20tray%20into%20base.jpg)
 1. Put the IR board support in the can. Two options:
-    1. Keep the iron weight at the bottom: you need to use the 36mm high board support.
-    1. Remove the iron weight at the bottom: you need to use the 39mm high board support
+    1. Keep the iron weight at the bottom: you need to use the 36mm high board support => https://github.com/djurny/rm-mini3-to-esp8266/blob/master/PCB_V2.0/STL/IR%20board%20support%2036mm.stl
+    1. Remove the iron weight at the bottom: you need to use the 39mm high board support => https://github.com/djurny/rm-mini3-to-esp8266/blob/master/PCB_V2.0/STL/IR%20board%20support%2039mm.stl
     ![](https://github.com/djurny/rm-mini3-to-esp8266/blob/master/PCB_V2.0/Pictures/17%20put%20ir%20board%20bracket%20into%20base.jpg)
 1. Make sure the board support 'feet' are touching evenly.
     ![](https://github.com/djurny/rm-mini3-to-esp8266/blob/master/PCB_V2.0/Pictures/18%20put%20ir%20board%20bracket%20into%20base.jpg)
-1. Put the IR board holder on top of the support. There is an opening in the board holder, as the outside circumference is slightly larger than the inside of the can. This is to make it fit snugly.
+1. Put the IR board holder on top of the support. There is an opening in the board holder, as the outside circumference is slightly larger than the inside of the can. This is to make it fit snugly => https://github.com/djurny/rm-mini3-to-esp8266/blob/master/PCB_V2.0/STL/IR%20board%20holder.stl
     ![](https://github.com/djurny/rm-mini3-to-esp8266/blob/master/PCB_V2.0/Pictures/19%20put%20ir%20board%20support%20onto%20bracket.jpg)
 1. While taking care of the wiring, put the IR board onto the IR board holder.
     ![](https://github.com/djurny/rm-mini3-to-esp8266/blob/master/PCB_V2.0/Pictures/20%20place%20ir%20board.jpg)
