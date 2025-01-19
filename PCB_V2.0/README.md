@@ -35,25 +35,25 @@
     ```
     remote_transmitter:
     - id: IR_TX
-        pin:
+      pin:
         number: GPIO17 # UART2-TX on ESP32 D1 MINI
         #       GPIO5  # D1 on ESP8226 D1 mini
         inverted: false
         mode:
-            output: true
-        carrier_duty_percent: 50%
+          output: true
+      carrier_duty_percent: 50%
 
     remote_receiver:
     - id: IR_RX
-        pin:
+      pin:
         number: GPIO16 # UART2-RX on ESP32 D1 MINI
         #       GPIO4  # D2 on ESP8226 D1 mini
         inverted: true
         mode:
             input: true
             pullup: true
-        dump:
-        - all
+      dump:
+      - all
     ```
 1. ESPhome logging showing sample dump from random remote control
     ```
