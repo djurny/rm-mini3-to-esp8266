@@ -50,10 +50,10 @@
         #       GPIO4  # D2 on ESP8226 D1 mini
         inverted: true
         mode:
-            input: true
-            pullup: true
+          input: true
+          pullup: true
       dump:
-      - all
+        - all
     ```
 1. ESPhome logging showing sample dump from random remote control
     ```
